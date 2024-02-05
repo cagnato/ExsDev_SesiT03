@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="principal">
@@ -27,7 +28,7 @@
                 <input type="number" id="num2">
             </div>
             <div>
-                <button onClick="" class="Btn">Calcular</button>
+                <button onClick="soma()" class="Btn">Calcular</button>
             </div>
             <div>
                 <p>Resultado: <span id="resultado"></span></p>
@@ -44,10 +45,10 @@
                 <input type="number" id="num4">
             </div>
             <div>
-                <button onClick="" class="Btn">Calcular</button>
+                <button onClick="subtracao()" class="Btn">Calcular</button>
             </div>
             <div>
-                <p>Resultado: <span id="resultado"></span></p>
+                <p>Resultado: <span id="resultado2"></span></p>
             </div>
         </div>
         <div class="filhas">
@@ -61,10 +62,10 @@
                 <input type="number" id="num6">
             </div>
             <div>
-                <button onClick="" class="Btn">Calcular</button>
+                <button onClick="divisao()" class="Btn">Calcular</button>
             </div>
             <div>
-                <p>Resultado: <span id="resultado"></span></p>
+                <p>Resultado: <span id="resultado3"></span></p>
             </div>
         </div>
         <div class="filhas">
@@ -78,12 +79,33 @@
                 <input type="number" id="num8">
             </div>
             <div>
-                <button onClick="" class="Btn">Calcular</button>
+                <button onClick="multiplicacao()" class="Btn">Calcular</button>
             </div>
             <div>
-                <p>Resultado: <span id="resultado"></span></p>
+                <p>Resultado: <span id="resultado4"></span></p>
             </div>
-        </div>
+        </div>    
+        <div class="filhas">
+            <h2>Média</h2>
+            <div class="WrapNumInput">
+                <label for="num10">Número 01</label>
+                <input type="number" id="num10">
+            </div>
+            <div class="WrapNumInput">
+                <label for="num11">Número 02</label>
+                <input type="number" id="num11">
+            </div>
+            <div class="WrapNumInput">
+                <label for="num12">Número 03</label>
+                <input type="number" id="num12">
+            </div>
+            <div>
+                <button onClick="media()" class="Btn">Calcular</button>
+            </div>
+            <div>
+                <p>Resultado: <span id="resultado5"></span></p>
+            </div>
+        </div>          
     </div>
 </body>
 </html>
